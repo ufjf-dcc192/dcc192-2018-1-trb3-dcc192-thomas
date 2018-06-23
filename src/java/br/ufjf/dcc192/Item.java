@@ -1,4 +1,4 @@
-package dcc192.ufjf.br;
+package br.ufjf.dcc192;
 
 import java.util.Date;
 import java.util.List;

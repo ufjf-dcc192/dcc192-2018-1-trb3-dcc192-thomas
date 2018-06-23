@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dcc192.ufjf.br.Comandos;
+package br.ufjf.dcc192;
 
 /**
  *
  * @author thoma
  */
-public class ListItemGetCommand {
+public class DeleteItemPostCommand {
     
 }

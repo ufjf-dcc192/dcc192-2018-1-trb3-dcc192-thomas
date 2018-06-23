@@ -1,4 +1,4 @@
-package dcc192.ufjf.br;
+package br.ufjf.dcc192;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

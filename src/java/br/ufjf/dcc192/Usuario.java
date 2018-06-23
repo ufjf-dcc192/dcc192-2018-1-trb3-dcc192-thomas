@@ -1,5 +1,5 @@
 
-package dcc192.ufjf.br;
+package br.ufjf.dcc192;
 
 public class Usuario {
     private String nome;

@@ -1,4 +1,4 @@
-package dcc192.ufjf.br.Comandos;
+package br.ufjf.dcc192;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
