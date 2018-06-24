@@ -11,7 +11,7 @@ public class IndexCommand implements Comando {
     @Override
     public void exec(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setAttribute("titulo", "Página Inicial");
-        RequestDispatcher dispacher = request.getRequestDispatcher("/WEB-INF/jsp/index.jsp");
+        RequestDispatcher dispacher = request.getRequestDispatcher("/WEB-INF/index.jsp");
         dispacher.forward(request, response);
     }
     
