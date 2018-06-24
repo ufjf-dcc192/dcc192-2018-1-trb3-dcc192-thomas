@@ -3,6 +3,9 @@ package br.ufjf.dcc192;
 
 public class Usuario {
     private String nome;
+    private String usuario;
+    private String email;
+    private String senha;
 
     public String getNome() {
         return nome;
@@ -35,7 +38,5 @@ public class Usuario {
     public void setSenha(String senha) {
         this.senha = senha;
     }
-    private String usuario;
-    private String email;
-    private String senha;
+
 }

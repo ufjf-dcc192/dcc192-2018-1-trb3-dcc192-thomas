@@ -13,13 +13,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "SistemaServlet", urlPatterns = {"/index.html", "/sistema"})
+@WebServlet(name = "SistemaServlet", urlPatterns = {"/index.html", "/sistema", "/login.html"})
 public class SistemaServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Map<String, String> rotas = new HashMap<>();        
         rotas.put("/index.html", "br.ufjf.dcc192.IndexCommand");
+        rotas.put("/login.html", "br.ufjf.dcc192.LoginCommand");
         
         String clazzName = rotas.get(request.getServletPath());
         try {

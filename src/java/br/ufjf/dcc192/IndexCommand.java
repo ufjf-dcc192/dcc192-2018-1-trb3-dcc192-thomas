@@ -10,7 +10,7 @@ public class IndexCommand implements Comando {
 
     @Override
     public void exec(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setAttribute("titulo", "Página Inicial");
+        request.setAttribute("titulo", "Menu");
         RequestDispatcher dispacher = request.getRequestDispatcher("/WEB-INF/index.jsp");
         dispacher.forward(request, response);
     }
